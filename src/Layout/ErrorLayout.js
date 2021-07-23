@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Redirect, Route, Switch } from 'react-router-dom';
-import { Col, Row } from 'reactstrap';
+
 import Error404 from '../view/error/404';
 import Error500 from '../view/error/500';
 

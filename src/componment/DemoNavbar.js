@@ -1,28 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import Logo from '../assets/img/brand/white.png'
-// JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
 // reactstrap components
 import {
-  Collapse,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
-  DropdownToggle,
-  Media,
   NavbarBrand,
   Navbar,
-  NavLink,
-  Nav,
+
   Container,
-  Row,
-  Col,
+
 } from "reactstrap";
 
 function DemoNavbar(props) {
-  const [collapseOpen, toggleCollapse] = React.useState(false);
+
   React.useEffect(() => {
     let headroom = new Headroom(document.getElementById("dark-navbar-main"));
     // initialise

@@ -144,6 +144,7 @@ function Header5() {
                                                                         src={qr}
                                                                         width="100%"
                                                                 ></img>
+
                                                         </Col>
                                                 </Row>
                                         </Container>
